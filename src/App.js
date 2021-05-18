@@ -7,7 +7,7 @@ import Form from "./Form"
 function App() {
 
 // const url = "http://localhost:4000"
-const url = "https://mern-backend-nb.herokuapp.com/"
+const url = "https://mern-backend-nb.herokuapp.com"
 
 const [foods, setFoods] = React.useState([])
 
