@@ -72,7 +72,10 @@ const deleteFood = (food) => {
 
   return (
     <div className="App">
-      <h1>Favorite Foods site</h1>
+      <header><h1>Favorite Foods site</h1>
+      <h6>A website for displaying some of your favorite foods, Click the buttons below!</h6>
+      </header>
+      
       <hr />
       <Link to="/create">
         <button>Add Food</button>
@@ -115,6 +118,9 @@ const deleteFood = (food) => {
           />
         </Switch>
       </main>
+      <footer>
+        <h3>Test site by Nikolaus Brodfuehrer</h3>
+      </footer>
     </div>
   );
 }

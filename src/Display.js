@@ -1,10 +1,12 @@
 import React from "react";
+import { Button } from 'reactstrap';
 const Display = (props) => {
   const {foods, selectFood, history} = props
   const loaded = () => (
     <div className = "image">
       {foods.map((food) => (
         <article key={food._id}>
+           
           <img src={food.img}/>
           <h1>{food.name}</h1>
           <h3>{food.age}</h3>
