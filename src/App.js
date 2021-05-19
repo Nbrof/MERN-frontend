@@ -119,7 +119,7 @@ const deleteFood = (food) => {
         </Switch>
       </main>
       <footer>
-        <h3>Test site by Nikolaus Brodfuehrer</h3>
+        <h3>Test site by Nikolaus Brodfuehrer, 2021</h3>
       </footer>
     </div>
   );
